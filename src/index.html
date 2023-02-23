@@ -17,8 +17,9 @@
 
 <body>
 
-  <div class="history__bg">
-  </div>
+  <div class="history__bg"></div>
+  <div class="history__bg-2"></div>
+
 
   <div class="container">
 
@@ -32,8 +33,10 @@
         <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your
           devices.</p>
 
-        <button class="green__btn">Download for iOS</button>
-        <button class="blue__btn">Download for Mac</button>
+        <div class="history__btn">
+          <button class="green__btn">Download for iOS</button>
+          <button class="blue__btn">Download for Mac</button>
+        </div>
 
       </div>
     </div>
@@ -45,19 +48,23 @@
       <p>Clipboard Instantly stores any item you copy in the cloude, meaning you can access your snippest immediately on
         all your devices. Our Mac and iOS apps will help you organize everything</p>
 
-      <img src="../images/image-computer.png" alt="" class="content__img">
+      <div class="computer__flex">
+        <img src="../images/image-computer.png" alt="" class="content__img">
 
-      <h1>Quick Search</h1>
+        <div class="computer__right">
+          <h1>Quick Search</h1>
 
-      <p>Easily search your snippets by content, category, web address, application, and more.</p>
+          <p>Easily search your snippets by content, category, web address, application, and more.</p>
 
-      <h1>iCloud Sync</h1>
+          <h1>iCloud Sync</h1>
 
-      <p>Instantly saves and syncs snippets across all your devices.</p>
+          <p>Instantly saves and syncs snippets across all your devices.</p>
 
-      <h1>Compelete History</h1>
+          <h1>Compelete History</h1>
 
-      <p>Retrieve any snippets from the first moment you started using the appp.</p>
+          <p>Retrieve any snippets from the first moment you started using the appp.</p>
+        </div>
+      </div>
 
       <h1>Access Clipboard Anywhere</h1>
 
@@ -70,29 +77,27 @@
 
       <p>We`ve got the tools to boost your productivity</p>
 
-      <div class="blacklist">
-        <img src="../images/icon-blacklist.svg" alt="" class="icon__blacklist">
+      <div class="text-icon">
+        <div class="blacklist">
+          <img src="../images/icon-blacklist.svg" alt="" class="icon__blacklist">
+          <h1>Create blacklists</h1>
+          <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+        </div>
+
+        <div class="text">
+          <img src="../images/icon-text.svg" alt="" class="icon__text">
+          <h1>Plain text snippets</h1>
+          <p>Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+
+        <div class="preview">
+          <img src="../images/icon-preview.svg" alt="" class="icon__preview">
+          <h1>Sneak preview</h1>
+          <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+        </div>
       </div>
 
-      <h1>Create blacklists</h1>
 
-      <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-
-      <div class="text">
-        <img src="../images/icon-text.svg" alt="" class="icon__text">
-      </div>
-
-      <h1>Plain text snippets</h1>
-
-      <p>Remove unwanted formatting from copied text for a consistent look.</p>
-
-      <div class="preview">
-        <img src="../images/icon-preview.svg" alt="" class="icon__preview">
-      </div>
-
-      <h1>Sneak preview</h1>
-
-      <p>Quick preview of all snippets on your Clipboard for easy access.</p>
     </div>
 
     <div class="icons">
@@ -120,8 +125,10 @@
       <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you`re ready to start adding
         to your clipboard.</p>
 
-      <button class="green__btn">Download for iOS</button>
-      <button class="blue__btn">Download for Mac</button>
+      <div class="history__btn">
+        <button class="green__btn">Download for iOS</button>
+        <button class="blue__btn">Download for Mac</button>
+      </div>
 
 
     </div>
@@ -129,22 +136,34 @@
   </div>
 
   <footer>
-    <div class="logo__footer"><img src="../images/logo.svg" alt=""></div>
-    
-    <ul class="footer__list">
+    <div class="footer__content">
+      <div class="logo__footer"><img src="../images/logo.svg" alt=""></div>
 
-      <a href=""><li>FAQs</li></a>
-      <a href=""><li>Contact Us</li></a>
-      <a href=""><li>Privacy Policy</li></a>
-      <a href=""><li>Press Kit</li></a>
-      <a href=""><li>Install Guide</li></a>
-      
-    </ul>
+      <ul class="footer__list">
 
-    <div class="footer__icons">
-      <img src="../images/icon-facebook.svg" alt="" class="facebook__icon">
-      <img src="../images/icon-twitter.svg" alt="" class="twitter__icon">
-      <img src="../images/icon-instagram.svg" alt="" class="instagram__icon">
+        <a href="">
+          <li>FAQs</li>
+        </a>
+        <a href="">
+          <li>Contact Us</li>
+        </a>
+        <a href="">
+          <li>Privacy Policy</li>
+        </a>
+        <a href="">
+          <li>Press Kit</li>
+        </a>
+        <a href="">
+          <li>Install Guide</li>
+        </a>
+
+      </ul>
+
+      <div class="footer__icons">
+        <img src="../images/icon-facebook.svg" alt="" class="facebook__icon">
+        <img src="../images/icon-twitter.svg" alt="" class="twitter__icon">
+        <img src="../images/icon-instagram.svg" alt="" class="instagram__icon">
+      </div>
     </div>
   </footer>
 </body>
