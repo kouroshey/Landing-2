@@ -209,6 +209,22 @@ footer {
 
 .blacklist h1 , .blacklist p , .text h1 , .text p , .preview h1 , .preview p {
   text-align: center;
+  width: 90%;
+}
+
+.blacklist  , .text  , .preview {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon__text , .icon__preview , .icon__blacklist {
+  width: 40%;
+  padding: 0;
+  margin: 0 auto;
+
+
 }
 
 
